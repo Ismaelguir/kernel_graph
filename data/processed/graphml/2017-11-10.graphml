@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d0" for="node" attr.name="ticker" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="AAPL">
+      <data key="d0">AAPL</data>
+    </node>
+    <node id="MSFT">
+      <data key="d0">MSFT</data>
+    </node>
+    <node id="AMZN">
+      <data key="d0">AMZN</data>
+    </node>
+    <node id="NVDA">
+      <data key="d0">NVDA</data>
+    </node>
+    <node id="GOOGL">
+      <data key="d0">GOOGL</data>
+    </node>
+    <node id="META">
+      <data key="d0">META</data>
+    </node>
+    <node id="TSLA">
+      <data key="d0">TSLA</data>
+    </node>
+    <node id="AVGO">
+      <data key="d0">AVGO</data>
+    </node>
+    <node id="ORCL">
+      <data key="d0">ORCL</data>
+    </node>
+    <node id="AMD">
+      <data key="d0">AMD</data>
+    </node>
+    <node id="QCOM">
+      <data key="d0">QCOM</data>
+    </node>
+    <node id="CSCO">
+      <data key="d0">CSCO</data>
+    </node>
+    <node id="INTU">
+      <data key="d0">INTU</data>
+    </node>
+    <node id="ADBE">
+      <data key="d0">ADBE</data>
+    </node>
+    <node id="CRM">
+      <data key="d0">CRM</data>
+    </node>
+    <node id="TXN">
+      <data key="d0">TXN</data>
+    </node>
+    <node id="NFLX">
+      <data key="d0">NFLX</data>
+    </node>
+    <node id="DIS">
+      <data key="d0">DIS</data>
+    </node>
+    <node id="CMCSA">
+      <data key="d0">CMCSA</data>
+    </node>
+    <node id="VZ">
+      <data key="d0">VZ</data>
+    </node>
+    <node id="TMUS">
+      <data key="d0">TMUS</data>
+    </node>
+    <node id="HD">
+      <data key="d0">HD</data>
+    </node>
+    <node id="NKE">
+      <data key="d0">NKE</data>
+    </node>
+    <node id="MCD">
+      <data key="d0">MCD</data>
+    </node>
+    <node id="SBUX">
+      <data key="d0">SBUX</data>
+    </node>
+    <node id="LOW">
+      <data key="d0">LOW</data>
+    </node>
+    <node id="WMT">
+      <data key="d0">WMT</data>
+    </node>
+    <node id="COST">
+      <data key="d0">COST</data>
+    </node>
+    <node id="PG">
+      <data key="d0">PG</data>
+    </node>
+    <node id="KO">
+      <data key="d0">KO</data>
+    </node>
+    <node id="PEP">
+      <data key="d0">PEP</data>
+    </node>
+    <node id="PM">
+      <data key="d0">PM</data>
+    </node>
+    <node id="JNJ">
+      <data key="d0">JNJ</data>
+    </node>
+    <node id="PFE">
+      <data key="d0">PFE</data>
+    </node>
+    <node id="MRK">
+      <data key="d0">MRK</data>
+    </node>
+    <node id="ABBV">
+      <data key="d0">ABBV</data>
+    </node>
+    <node id="UNH">
+      <data key="d0">UNH</data>
+    </node>
+    <node id="TMO">
+      <data key="d0">TMO</data>
+    </node>
+    <node id="AMGN">
+      <data key="d0">AMGN</data>
+    </node>
+    <node id="GILD">
+      <data key="d0">GILD</data>
+    </node>
+    <node id="JPM">
+      <data key="d0">JPM</data>
+    </node>
+    <node id="BAC">
+      <data key="d0">BAC</data>
+    </node>
+    <node id="WFC">
+      <data key="d0">WFC</data>
+    </node>
+    <node id="GS">
+      <data key="d0">GS</data>
+    </node>
+    <node id="MS">
+      <data key="d0">MS</data>
+    </node>
+    <node id="BRK-B">
+      <data key="d0">BRK-B</data>
+    </node>
+    <node id="V">
+      <data key="d0">V</data>
+    </node>
+    <node id="MA">
+      <data key="d0">MA</data>
+    </node>
+    <node id="AXP">
+      <data key="d0">AXP</data>
+    </node>
+    <node id="CAT">
+      <data key="d0">CAT</data>
+    </node>
+    <node id="GE">
+      <data key="d0">GE</data>
+    </node>
+    <node id="HON">
+      <data key="d0">HON</data>
+    </node>
+    <node id="UPS">
+      <data key="d0">UPS</data>
+    </node>
+    <node id="UNP">
+      <data key="d0">UNP</data>
+    </node>
+    <node id="LMT">
+      <data key="d0">LMT</data>
+    </node>
+    <node id="DE">
+      <data key="d0">DE</data>
+    </node>
+    <node id="XOM">
+      <data key="d0">XOM</data>
+    </node>
+    <node id="CVX">
+      <data key="d0">CVX</data>
+    </node>
+    <node id="LIN">
+      <data key="d0">LIN</data>
+    </node>
+    <node id="NEE">
+      <data key="d0">NEE</data>
+    </node>
+    <edge source="AAPL" target="NVDA">
+      <data key="d1">0.5750761992590238</data>
+    </edge>
+    <edge source="AAPL" target="GOOGL">
+      <data key="d1">0.5903420442593249</data>
+    </edge>
+    <edge source="AAPL" target="AVGO">
+      <data key="d1">0.482360069088286</data>
+    </edge>
+    <edge source="AAPL" target="AMD">
+      <data key="d1">0.540794272508499</data>
+    </edge>
+    <edge source="AAPL" target="QCOM">
+      <data key="d1">0.5203728250458116</data>
+    </edge>
+    <edge source="AAPL" target="CSCO">
+      <data key="d1">0.4629653826438246</data>
+    </edge>
+    <edge source="AMZN" target="CSCO">
+      <data key="d1">0.4878302096025441</data>
+    </edge>
+    <edge source="AMZN" target="COST">
+      <data key="d1">0.4213124311204369</data>
+    </edge>
+    <edge source="AMZN" target="MA">
+      <data key="d1">0.4012617314425996</data>
+    </edge>
+    <edge source="NVDA" target="GOOGL">
+      <data key="d1">0.4770672528236265</data>
+    </edge>
+    <edge source="NVDA" target="AVGO">
+      <data key="d1">0.7547880709596598</data>
+    </edge>
+    <edge source="NVDA" target="AMD">
+      <data key="d1">0.6803816377446402</data>
+    </edge>
+    <edge source="NVDA" target="QCOM">
+      <data key="d1">0.8561230335739297</data>
+    </edge>
+    <edge source="NVDA" target="TMO">
+      <data key="d1">0.5249913865875522</data>
+    </edge>
+    <edge source="NVDA" target="AXP">
+      <data key="d1">0.5239282791357139</data>
+    </edge>
+    <edge source="GOOGL" target="AMD">
+      <data key="d1">0.419575327021084</data>
+    </edge>
+    <edge source="GOOGL" target="QCOM">
+      <data key="d1">0.4364173272326559</data>
+    </edge>
+    <edge source="GOOGL" target="CSCO">
+      <data key="d1">0.4580344377969864</data>
+    </edge>
+    <edge source="GOOGL" target="COST">
+      <data key="d1">0.4774281180833715</data>
+    </edge>
+    <edge source="META" target="ORCL">
+      <data key="d1">0.4082868490423663</data>
+    </edge>
+    <edge source="META" target="LIN">
+      <data key="d1">0.4122838473286716</data>
+    </edge>
+    <edge source="TSLA" target="COST">
+      <data key="d1">0.4880179013524641</data>
+    </edge>
+    <edge source="TSLA" target="HON">
+      <data key="d1">0.5150645577986966</data>
+    </edge>
+    <edge source="AVGO" target="AMD">
+      <data key="d1">0.7403856545667277</data>
+    </edge>
+    <edge source="AVGO" target="QCOM">
+      <data key="d1">0.6588536878456004</data>
+    </edge>
+    <edge source="AVGO" target="NKE">
+      <data key="d1">0.4397159809464911</data>
+    </edge>
+    <edge source="AVGO" target="AXP">
+      <data key="d1">0.407884105097901</data>
+    </edge>
+    <edge source="ORCL" target="WMT">
+      <data key="d1">0.5074139511781803</data>
+    </edge>
+    <edge source="AMD" target="QCOM">
+      <data key="d1">0.6345964743256884</data>
+    </edge>
+    <edge source="AMD" target="CSCO">
+      <data key="d1">0.4691761686249417</data>
+    </edge>
+    <edge source="AMD" target="NKE">
+      <data key="d1">0.5524646174115385</data>
+    </edge>
+    <edge source="AMD" target="LMT">
+      <data key="d1">0.5362413971424898</data>
+    </edge>
+    <edge source="AMD" target="LIN">
+      <data key="d1">0.5422458562110449</data>
+    </edge>
+    <edge source="QCOM" target="NKE">
+      <data key="d1">0.4241500393965806</data>
+    </edge>
+    <edge source="QCOM" target="COST">
+      <data key="d1">0.4185103925604313</data>
+    </edge>
+    <edge source="QCOM" target="TMO">
+      <data key="d1">0.4204648509572422</data>
+    </edge>
+    <edge source="QCOM" target="AXP">
+      <data key="d1">0.5027638919130505</data>
+    </edge>
+    <edge source="CSCO" target="CRM">
+      <data key="d1">0.4013571336147549</data>
+    </edge>
+    <edge source="CSCO" target="COST">
+      <data key="d1">0.4722876783642191</data>
+    </edge>
+    <edge source="CRM" target="PM">
+      <data key="d1">0.4853673380015906</data>
+    </edge>
+    <edge source="CRM" target="DE">
+      <data key="d1">0.4309935153871786</data>
+    </edge>
+    <edge source="TXN" target="DIS">
+      <data key="d1">0.6341171125504188</data>
+    </edge>
+    <edge source="NFLX" target="KO">
+      <data key="d1">0.4773133099481764</data>
+    </edge>
+    <edge source="DIS" target="GE">
+      <data key="d1">0.4273301022968792</data>
+    </edge>
+    <edge source="CMCSA" target="TMUS">
+      <data key="d1">0.7066304320971526</data>
+    </edge>
+    <edge source="VZ" target="SBUX">
+      <data key="d1">0.4591375504734834</data>
+    </edge>
+    <edge source="VZ" target="GILD">
+      <data key="d1">0.5947660490929709</data>
+    </edge>
+    <edge source="NKE" target="COST">
+      <data key="d1">0.4079365047309553</data>
+    </edge>
+    <edge source="NKE" target="JNJ">
+      <data key="d1">0.4446346181683648</data>
+    </edge>
+    <edge source="NKE" target="LIN">
+      <data key="d1">0.4150076332496546</data>
+    </edge>
+    <edge source="WMT" target="PG">
+      <data key="d1">0.533740640998099</data>
+    </edge>
+    <edge source="COST" target="JNJ">
+      <data key="d1">0.4262870882454414</data>
+    </edge>
+    <edge source="COST" target="BRK-B">
+      <data key="d1">0.4784980232179073</data>
+    </edge>
+    <edge source="PEP" target="PM">
+      <data key="d1">0.4045103811717503</data>
+    </edge>
+    <edge source="PM" target="JPM">
+      <data key="d1">0.4484420890844563</data>
+    </edge>
+    <edge source="JNJ" target="MRK">
+      <data key="d1">0.7651096123416516</data>
+    </edge>
+    <edge source="JNJ" target="UNH">
+      <data key="d1">0.8767316187318691</data>
+    </edge>
+    <edge source="JNJ" target="AMGN">
+      <data key="d1">0.8455259401272911</data>
+    </edge>
+    <edge source="JNJ" target="MS">
+      <data key="d1">0.5998508057404011</data>
+    </edge>
+    <edge source="JNJ" target="BRK-B">
+      <data key="d1">0.5739899087331993</data>
+    </edge>
+    <edge source="JNJ" target="V">
+      <data key="d1">0.7083222330823633</data>
+    </edge>
+    <edge source="MRK" target="UNH">
+      <data key="d1">0.7398792783271714</data>
+    </edge>
+    <edge source="MRK" target="AMGN">
+      <data key="d1">0.7818248465120865</data>
+    </edge>
+    <edge source="MRK" target="MS">
+      <data key="d1">0.6352088067271348</data>
+    </edge>
+    <edge source="MRK" target="V">
+      <data key="d1">0.6451698050170619</data>
+    </edge>
+    <edge source="ABBV" target="GS">
+      <data key="d1">0.4194280257547049</data>
+    </edge>
+    <edge source="UNH" target="AMGN">
+      <data key="d1">0.8360411144131829</data>
+    </edge>
+    <edge source="UNH" target="MS">
+      <data key="d1">0.7115655078355247</data>
+    </edge>
+    <edge source="UNH" target="BRK-B">
+      <data key="d1">0.4977889630954481</data>
+    </edge>
+    <edge source="UNH" target="V">
+      <data key="d1">0.7099000510359328</data>
+    </edge>
+    <edge source="TMO" target="WFC">
+      <data key="d1">0.4899121687860789</data>
+    </edge>
+    <edge source="AMGN" target="MS">
+      <data key="d1">0.637551710480789</data>
+    </edge>
+    <edge source="AMGN" target="BRK-B">
+      <data key="d1">0.4358383359455018</data>
+    </edge>
+    <edge source="AMGN" target="V">
+      <data key="d1">0.6862915454056154</data>
+    </edge>
+    <edge source="MS" target="BRK-B">
+      <data key="d1">0.439064200837127</data>
+    </edge>
+    <edge source="MS" target="V">
+      <data key="d1">0.4849635581101602</data>
+    </edge>
+    <edge source="BRK-B" target="V">
+      <data key="d1">0.4399711763037241</data>
+    </edge>
+    <edge source="BRK-B" target="CAT">
+      <data key="d1">0.41644791374169</data>
+    </edge>
+    <edge source="BRK-B" target="UPS">
+      <data key="d1">0.4044755447657425</data>
+    </edge>
+    <edge source="AXP" target="NEE">
+      <data key="d1">0.4144043558511592</data>
+    </edge>
+    <edge source="UPS" target="XOM">
+      <data key="d1">0.5085058689545938</data>
+    </edge>
+    <edge source="LMT" target="LIN">
+      <data key="d1">0.7741426615555859</data>
+    </edge>
+    <edge source="XOM" target="CVX">
+      <data key="d1">0.4004582272186875</data>
+    </edge>
+  </graph>
+</graphml>

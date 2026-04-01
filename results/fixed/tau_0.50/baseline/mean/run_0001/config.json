@@ -1,0 +1,8 @@
+{
+  "mode": "fixed",
+  "train_end": "2019-12-31",
+  "val_end": "2020-12-31",
+  "labels_path": "data/processed/tau_0.50/labels.csv",
+  "results_dir": "results",
+  "tag": "tau_0.50"
+}

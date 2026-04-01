@@ -8,7 +8,7 @@ TICKERS_JSON = Path("data/processed/tickers.json")
 OUT_DIR = Path("data/processed/graphml")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-DATE = "2014-11-10"  # choisis une date existante dans data/graphs/
+DATE = "2014-11-10"  
 
 # 1) charge mapping index -> ticker (optionnel mais utile pour labels de noeuds)
 with open(TICKERS_JSON, "r", encoding="utf-8") as f:

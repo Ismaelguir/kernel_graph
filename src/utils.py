@@ -147,3 +147,15 @@ def portfolio_forward_return(rets: np.ndarray) -> float:
     y = somme_{u} (1/N) * somme_i r_{u,i}
     """
     return float(rets.mean(axis=1).sum())
+
+import csv
+
+def _append_summary(mode_dir: Path, row: dict) -> None:
+    path = mode_dir / "summary.csv"
+    mode_dir.mkdir(parents=True, exist_ok=True)
+    write_header = not path.exists()
+    with open(path, "a", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=list(row.keys()))
+        if write_header:
+            w.writeheader()
+        w.writerow(row)

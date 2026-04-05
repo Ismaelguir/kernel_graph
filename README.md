@@ -1,8 +1,4 @@
-# kernel_graph — Graph kernels sur graphes financiers
-
 Ce projet construit une base de données de graphes financiers à partir d’un univers fixe d’actions (≈60) et applique des méthodes à noyaux sur graphes pour prédire un rendement futur de portefeuille équipondéré. Le projet couvre : récupération des prix, construction de graphes de dépendance (corrélations avec un seuil appliqué), apprentissage (KRR / SVR à noyau pré-calculé), baselines, étude sur le seuil `tau`, résultats et figures.
-
-## Problème et données
 
 À chaque date `t`, on associe un graphe `G_t` construit à partir des corrélations empiriques sur une fenêtre glissante de `CORR_WINDOW=60` jours : une arête non orientée `(i,j)` est conservée si `|corr(i,j)|>=tau`. Les fichiers d’arêtes stockent aussi un poids `w` (corrélation), mais dans la première itération les noyaux utilisent uniquement la structure binaire. La cible `y_t` est le rendement futur (log, cumulé) du portefeuille équipondéré sur `FWD_HORIZON=20` jours.
 
@@ -11,8 +7,7 @@ Le dataset est généré par valeur de `tau` :
 - `data/graphs/tau_0.40/YYYY-MM-DD.csv` : edge-list `i,j,w`
 - `data/processed/tau_0.40/tickers.json` : mapping `index_to_ticker` + paramètres
 
-## Installation
-
+Pour  l'installation :
 Python 3.10+.
 
 ```bash
@@ -21,8 +16,6 @@ source .venv/bin/activate
 python -m pip install -U pip
 pip install -r requirements.txt
 ```
-
-## Génération des données
 
 Les données sont déjà fournies dans ce dépôt GitHub, mais j’ai conservé les fonctions permettant de les régénérer automatiquement.
 
@@ -34,7 +27,7 @@ python -m src.build_dataset --tau 0.40
 
 Sorties : `data/graphs/tau_0.40/`, `data/processed/tau_0.40/labels.csv`, `data/processed/tau_0.40/tickers.json`.
 
-## Entraînement / évaluation (graph kernels)
+Pour l'entrainement :
 
 Exemple `tau_0.40` :
 
@@ -54,21 +47,19 @@ Contenu d’un run :
 - `predictions.csv` : `date,split,y,yhat`.
 - `figures/` : figures automatiques (prédictions vs vrai, résidus, etc.).
 
-## Baselines
+J'ai ajouté deux baseline :
 
-Baseline “mean predictor” : `yhat = mean(y_train)`.
+Le premier est un baseline de moyenne : `yhat = mean(y_train)`.
 
 ```bash
 python -m src.mean_baseline --tag tau_0.40 --labels_path data/processed/tau_0.40/labels.csv
 ```
 
-Baseline “ridge” : on remplace le graphe par quelques données scalaires sur la fenêtre passée (rendement et volatilité du portefeuille équipondéré, etc.), puis on ajuste une régression linéaire ridge pour prédire le rendement futur.
+Dans le second, on vectorise nos graphes : on remplace le graphe par quelques données scalaires sur la fenêtre passée (rendement et volatilité du portefeuille équipondéré, etc.), puis on ajuste une régression linéaire ridge pour prédire le rendement futur.
 
 ```bash
 python -m src.baseline_train_eval --tag tau_0.40 --labels_path data/processed/tau_0.40/labels.csv --raw_prices_path data/raw/adj_close_2014-01-01_2024-12-31.csv
 ```
-
-## Résumés et figures globales
 
 Agrégation des derniers runs par `(kernel, model)` et par tag :
 
@@ -87,7 +78,7 @@ Sorties attendues :
 - `results/fixed/figures/*_vs_tau.png`
 
 
-## Quality of life :
+Et enfin quelques ajouts "quality of life" :
 
 Vérification du caractère symétrique défini positif (validité numérique des matrices de Gram sur train) :
 

@@ -1,0 +1,32 @@
+{
+  "mode": "fixed",
+  "kernel": "sp",
+  "train_end": "2019-12-31",
+  "val_end": "2020-12-31",
+  "labels_path": "data/processed/tau_0.35/labels.csv",
+  "graphs_dir": "data/graphs/tau_0.35",
+  "results_dir": "results",
+  "wl_n_iter": 3,
+  "lambdas": [
+    1e-06,
+    3e-06,
+    1e-05,
+    3e-05,
+    0.0001,
+    0.0003,
+    0.001,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    3.0,
+    10.0
+  ],
+  "n_train_cap": 0,
+  "n_val_cap": 0,
+  "n_test_cap": 0,
+  "tag": "tau_0.35",
+  "model": "svr"
+}

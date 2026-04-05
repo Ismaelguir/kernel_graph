@@ -5,4 +5,6 @@ __pycache__/
 .DS_Store
 Dorion_Christian_2004_memoire.pdf
 notes.txt
-
+visualization/
+results_old/
+*.sh

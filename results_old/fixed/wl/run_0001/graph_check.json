@@ -1,9 +1,0 @@
-{
-  "train_ok": 1450,
-  "train_missing": 0,
-  "val_ok": 253,
-  "val_missing": 0,
-  "test_ok": 984,
-  "test_missing": 0,
-  "missing_examples": []
-}

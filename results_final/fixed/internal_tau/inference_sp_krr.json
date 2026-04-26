@@ -1,0 +1,11 @@
+{
+  "tag": "internal_tau",
+  "selected_tau": "tau_0.55",
+  "selected_tau_value": 0.55,
+  "kernel": "sp",
+  "model": "krr",
+  "n_bench": 50,
+  "mean_infer_sec": 2.2247590255737304,
+  "median_infer_sec": 2.217424511909485,
+  "p95_infer_sec": 2.2714020371437074
+}

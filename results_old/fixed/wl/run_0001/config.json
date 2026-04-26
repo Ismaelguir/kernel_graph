@@ -1,9 +1,0 @@
-{
-  "mode": "fixed",
-  "kernel": "wl",
-  "train_end": "2019-12-31",
-  "val_end": "2020-12-31",
-  "labels_path": "data/processed/labels.csv",
-  "graphs_dir": "data/graphs",
-  "results_dir": "results"
-}

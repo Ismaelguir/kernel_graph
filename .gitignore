@@ -3,8 +3,10 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .DS_Store
-Dorion_Christian_2004_memoire.pdf
+*.pdf
 notes.txt
-visualization/
-results_old/
-*.sh
+.visualization/
+.results_old/
+run_results_final_only.sh
+run_tau_sweep.sh
+run_tau_sweep_final.sh

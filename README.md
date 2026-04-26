@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Ce projet construit une base de données de graphes financiers à partir d’un univers fixe d’actions (≈60) et applique des méthodes à noyaux sur graphes pour prédire un rendement futur de portefeuille équipondéré. Le projet couvre : récupération des prix, construction de graphes de dépendance (corrélations avec un seuil appliqué), apprentissage (KRR / SVR à noyau pré-calculé), baselines, étude sur le seuil `tau`, résultats et figures.
 
 À chaque date `t`, on associe un graphe `G_t` construit à partir des corrélations empiriques sur une fenêtre glissante de `CORR_WINDOW=60` jours : une arête non orientée `(i,j)` est conservée si `|corr(i,j)|>=tau`. Les fichiers d’arêtes stockent aussi un poids `w` (corrélation), mais dans la première itération les noyaux utilisent uniquement la structure binaire. La cible `y_t` est le rendement futur (log, cumulé) du portefeuille équipondéré sur `FWD_HORIZON=20` jours.
